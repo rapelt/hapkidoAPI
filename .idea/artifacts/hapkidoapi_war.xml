@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hapkidoapi:war">
+    <output-path>$PROJECT_DIR$/hapkidoapi/target</output-path>
+    <root id="archive" name="hapkidoapi.war">
+      <element id="artifact" artifact-name="hapkidoapi:war exploded" />
+    </root>
+  </artifact>
+</component>
