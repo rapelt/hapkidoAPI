@@ -5,3 +5,7 @@ tomcat.5000
 # IntelliJ Idea project files
 .idea
 *.iml
+
+.DS_Store
+src/.DS_store
+src/main/.DS_store
