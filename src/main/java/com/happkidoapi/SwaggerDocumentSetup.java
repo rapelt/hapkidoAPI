@@ -24,7 +24,7 @@ public class SwaggerDocumentSetup extends HttpServlet {
         beanConfig.setDescription( "Hapkido Brisbane API" );
 
         beanConfig.setSchemes(new String[]{"http"});
-        beanConfig.setHost("localhost:8080");
+        beanConfig.setHost(System.getenv("location"));
         //beanConfig.setHost("www.control2me.com");
         beanConfig.setBasePath("/services");
         beanConfig.setResourcePackage( "com.happkidoapi.services" );
