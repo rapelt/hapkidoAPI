@@ -71,6 +71,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>japi</finalName>
+		<finalName>happkidoapi</finalName>
 	</build>
 </project>
