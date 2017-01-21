@@ -29,13 +29,11 @@
 
   <script type="text/javascript">
     $(function () {
-      var url = window.location.search.match(/url=([^&]+)/);
+      var url = window.location.origin;
       if (url && url.length > 1) {
-        url = decodeURIComponent(url[1]);
+          url = url + "/services/swagger.json";
       } else {
-//          //url = "http://petstore.swagger.io/v2/swagger.json";
           url = "http://localhost:8080/services/swagger.json";
-          //url = "https://www.control2me.com/japi/services/swagger.json";
       }
 
       // Pre load translate...
